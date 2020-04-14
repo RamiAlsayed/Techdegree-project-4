@@ -1,0 +1,7 @@
+@mixin media {
+    
+      @media (min-width: $break-m) {
+        @content;
+      } 
+ 
+}
